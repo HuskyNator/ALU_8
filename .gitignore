@@ -1,0 +1,29 @@
+# include schematics, pcb's, and project files
+!*.kicad_pro
+
+!*.kicad_sch
+!*.kicad_sym
+!sym-lib-table
+
+!*.kicad_pcb
+!*.pretty
+!*.kicad_mod
+!*.kicad_dru
+!fp-lib-table
+
+# ignore legacy files
+*.pro
+*.sch
+*.lib
+*.dcm
+*.brd
+*.mod
+
+# ignore local settings file
+*.kicad_prl
+
+# ignore cache file
+fp-info-cache
+
+# ignore lock file
+*.lck
