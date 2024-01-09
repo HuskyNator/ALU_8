@@ -27,3 +27,6 @@ fp-info-cache
 
 # ignore lock file
 *.lck
+
+# ignore backup folder
+ALU_8-backups/
